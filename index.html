@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Pratham</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Port<span style="color: darkgreen;font-weight: 500;">folio</span></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Circle2.jpg" alt="U7P4L 1N profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Pratham Dhobe</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('My_Resume.pdf')">
+            Resume
+          </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/pratham-dhobe/'" />
+                <img src="github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/PrathamDhobe'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+           
+            <div class="about-details-container">
+               
+                <div class="text-container">
+                    <p>
+                        I am a final-year student currently pursuing my engineering degree with Electronics and Telecommunication branch at Shri Sant Gajanan Maharaj College of Engineering, Shegaon. Apart from my academic journey, I have immersed myself in hands-on projects, allowing me to apply my knowledge in real-time scenarios. I possess proficiency in Python, HTML, CSS, JavaScript, BootStrap, SQL, Power BI. With a strong desire to continue growing in the software field, I am enthusiastic about contributing my skills and dedication to a dynamic software company.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Education & Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Education</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3>B.E (Electronics & Telecommunication Engineering)</h3>
+                                <p>Shri Sant Gajanan Maharaj College of Engineering, Shegaon
+                                    <br>2020 - 2024
+                                    <br>CGPA: 8.38
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>Higher Secondary School</h3>
+                                <p>Shri Chintamani Junior College, Kalamb Dist.Yavatmal, Maharashtra
+                                    <br>2019 - 2020
+                                    <br>Percentage: 80.62%
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>Secondary School</h3>
+                                <p>Shri Chintamani High School, Kalamb Dist.Yavatmal, Maharashtra
+                                    <br>2017 - 2018
+                                    <br>Percentage: 90.20%
+                                </p>
+                            </div>
+                        </article>
+                      
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>BootStrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Power BI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>AWS</h3>
+                                <p>Begineer</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper (1).png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">NiceJob</h2>
+                    <p style="margin-bottom: 10px;"> NiceJob is a platform that helps jobseekers to get their dream job. </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/PrathamDhobe/NiceJob', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://prathamdhobe.github.io/NiceJob/', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">PicVilla</h2>
+                    <p style="margin-bottom: 10px;">PicVila is a website where user can find, access and download images. </p>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/PrathamDhobe/PicVilla', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://prathamdhobe.github.io/PicVilla/', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper (3).png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Sales Dashboard</h2>
+                    <p style="margin-bottom: 10px;">Designed and developed a comprehensive sales dashboard that provides valuable insights to business.</p>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper (2).png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">CryptoWorld</h2>
+                    <p style="margin-bottom: 10px;">Design UI of trading app that include screens such as Login, Signup, Verify document, portfolio and many more.</p>
+
+                    
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.figma.com/file/zggANboXLKhY08cYTxzg5b/trading-design?type=design&node-id=2-2&mode=design&t=0P8FmLrtpqeSCEWk-0', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper (4).png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">CarStore</h2>
+                    <p style="margin-bottom: 10px;">CarStore is a online platform where customers can purchase car. Added multiple pages to get the information about car model, year, price.</p>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/PrathamDhobe/Car_Store', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://prathamdhobe.github.io/Car_Store/', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="mockuper (5).png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Daily Expense Tracker</h2>
+                    <p style="margin-bottom: 10px;">It is a website where user can manage their expenses on daily basis.</p>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/PrathamDhobe/Daily-Expense-Tracker', '_blank')">
+                            Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://prathamdhobe.github.io/Daily-Expense-Tracker/', '_blank')">
+                Live Demo
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:prathamdhobe@gmail.com">prathamdhobe@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Pratham Dhobe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
